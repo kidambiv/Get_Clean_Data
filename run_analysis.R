@@ -61,3 +61,6 @@ TidyData=merge(tidy,ActLabel,by.x="mergedData2$Activity.id",by.y="id",all=TRUE)
 
 #Final Tidy Data set with mean of each collumn by Activity ID, Subject ID 
 TidyData=subset(TidyData,select=-c(activity.x))
+
+#Upload Tidy Data to .txt file
+write.table(TidyData, "G:/Coursera/Get_Clean_Data/TidyData.txt", sep=",")
