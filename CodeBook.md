@@ -27,5 +27,4 @@ Section 4 - Extract only Mean and Std Dev columns with labelled activities
 Section 5 - Tidy Data Set
 
 1. Calculate average of each column for each activity ID and subject ID by using ddply function from plyr package.
-2. Publish the final dataframe in "TidyData".
-
+2. Write the final dataframe in "TidyData" in .txt file "TidyData.txt".
